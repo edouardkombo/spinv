@@ -1,0 +1,172 @@
+body {
+      background-color: #ecf0f5;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.sidebar-menu>li>a {
+    font-weight: 100;
+}
+.user-panel{
+    margin:30px 0 ;
+}
+.wrapper{
+    background: #2e3e4e !important;
+}
+.main-header .logo {
+    background: #2e3e4e !important;
+}
+.main-header .navbar {
+    background-color: #2e3e4e !important;
+}
+aside.main-sidebar{
+    background: #2e3e4e !important;
+}
+.content-header {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 5px;
+    background: #ffffff !important;
+    padding-left: 25px;
+}
+.modal-header{
+    background: #2e3e4e;
+    color:#ffffff;
+}
+.modal-header h5{
+    color:#fff;
+}
+button.close{
+    color: #ffffff;
+}
+.main-header li.user-header{
+    background-color: #2e3e4e !important;
+}
+.listthumb{
+    margin-bottom: 0px;
+}
+.spinner {
+    min-width: 24px;
+    min-height: 24px;
+    opacity: 0.4;
+}
+
+.spinner:before {
+    content: 'Loading…';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 100;
+}
+
+.spinner:not(:required):before {
+    content: '';
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, .3);
+    border-top-color: rgba(0, 0, 0, .6);
+    animation: spinner .6s linear infinite;
+    -webkit-animation: spinner .6s linear infinite;
+}
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spinner {
+    to {-webkit-transform: rotate(360deg);}
+}
+
+.form-control{
+    border-radius: 0;
+}
+label{
+    font-weight: 500;
+}
+textarea{
+    resize: none;
+}
+.table tbody>tr>td{
+    vertical-align: middle;
+}
+.sidebar h4 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#ffffff;
+    margin-left: 20px;
+}
+.login-logo {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    background: #2e3e4e;
+    padding: 20px;
+    color: #FFFFFF;
+}
+.invoice {
+    padding: 15px 9px 80px;
+    z-index: 2;
+    color: #555;
+    overflow: hidden;
+    min-height: 900px;
+    max-width: 850px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+.invoice table tbody>tr>td .form-group{
+    margin-bottom: 0;
+}
+#taxTotal, #grandTotal, #subTotal, .currencySymbol,#amountDue{
+    font-weight: 700;
+}
+.amount_due{
+    font-size: 20px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    padding-right: 0.2em;
+}
+.chosen-container {
+    width: 100% !important;
+}
+.invoice_title{
+    color: #2e3e4e;
+    font-weight: bold;
+}
+hr.separator{
+    border-color:  #2e3e4e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+tbody#items > tr > td{
+    border: 3px solid #fff !important;
+    vertical-align: middle;
+}
+#items{
+    background-color: #f1f1f1;
+}
+
+.invoice_status_cancelled
+{
+    font-size : 25px;
+    text-align : center;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+}
+.invoice_status_paid
+{
+    font-size : 30px;
+    text-align : center;
+    color: #82b440;
+    border: 1px solid #82b440;
+}
